@@ -1,34 +1,12 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://uzmanhukuk.com.tr.ht/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 1
-
-# Disallow specific directories (if any)
-# Disallow: /admin/
-# Disallow: /private/
-
-# Allow important pages
-Allow: /index.html
-Allow: /blog.html
-Allow: /hakkimizda.html
-Allow: /aile-hukuku.html
-Allow: /is-hukuku.html
-Allow: /ticaret-hukuku.html
-Allow: /sigorta-hukuku.html
-Allow: /gayrimenkul-hukuku.html
-Allow: /icra-iflas-hukuku.html
-Allow: /sozlesmeler-hukuku.html
-Allow: /tuketici-hukuku.html
-Allow: /arabuluculuk-hizmetleri.html
-Allow: /blog/
-
-# Block specific file types
+# Disallow specific file types that are not useful for indexing
 Disallow: /*.pdf$
 Disallow: /*.doc$
 Disallow: /*.docx$
 Disallow: /*.xls$
 Disallow: /*.xlsx$
+
+# Sitemap location
+Sitemap: https://eemrek.github.io/uzmanhukuk/sitemap.xml
