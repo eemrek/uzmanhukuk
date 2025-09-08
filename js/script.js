@@ -310,6 +310,44 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.classList.add('hero-loaded');
     }, 100);
 
+    // Blog Arama ve Filtreleme
+    const blogSearchInput = document.getElementById('blog-search');
+    const categoryLinks = document.querySelectorAll('.category-list a');
+    const blogPosts = document.querySelectorAll('.blog-post');
+
+    function filterBlogPosts() {
+        const searchTerm = blogSearchInput ? blogSearchInput.value.toLowerCase() : '';
+        const activeCategory = document.querySelector('.category-list a.active').dataset.category;
+
+        blogPosts.forEach(post => {
+            const title = post.querySelector('h2, h3').textContent.toLowerCase();
+            const content = post.querySelector('p').textContent.toLowerCase();
+            const postCategory = post.dataset.category;
+
+            const matchesSearch = title.includes(searchTerm) || content.includes(searchTerm);
+            const matchesCategory = activeCategory === 'all' || postCategory === activeCategory;
+
+            if (matchesSearch && matchesCategory) {
+                post.style.display = 'block';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+    }
+
+    if (blogSearchInput) {
+        blogSearchInput.addEventListener('keyup', filterBlogPosts);
+    }
+
+    if (categoryLinks.length > 0 && blogPosts.length > 0) {
+        categoryLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                categoryLinks.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+                filterBlogPosts();
+            });
+        });
+    }
 });
 
-console.log('Uzman Hukuk Bürosu web sitesi yüklendi.');
