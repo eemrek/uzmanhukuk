@@ -1,79 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Ana Sayfalar -->
   <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/</loc>
-    <lastmod>2025-01-28</lastmod>
+    <loc>https://uzmanhukuk.com.tr.ht/</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/hakkimizda.html</loc>
-    <lastmod>2025-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Hizmet Sayfaları -->
-  <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/aile-hukuku.html</loc>
-    <lastmod>2025-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/sigorta-hukuku.html</loc>
-    <lastmod>2025-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/icra-iflas-hukuku.html</loc>
-    <lastmod>2025-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/is-hukuku.html</loc>
-    <lastmod>2025-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Blog Sayfaları -->
-  <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/blog/index.html</loc>
-    <lastmod>2025-01-28</lastmod>
+    <loc>https://uzmanhukuk.com.tr.ht/index.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://uzmanhukuk.com.tr.ht/blog.html</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/blog/kayseri-bosanma-davasi-nasil-acilir.html</loc>
-    <lastmod>2025-01-28</lastmod>
+    <loc>https://uzmanhukuk.com.tr.ht/blog/trafik-kazasi-tazminati.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/blog/trafik-kazasinda-ne-yapmali.html</loc>
-    <lastmod>2025-01-28</lastmod>
+    <loc>https://uzmanhukuk.com.tr.ht/blog/ise-iade-davasi.html</loc>
+    <lastmod>2025-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/blog/icra-dosyasi-takibi.html</loc>
-    <lastmod>2025-01-28</lastmod>
+    <loc>https://uzmanhukuk.com.tr.ht/hakkimizda.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/blog/kayseri-is-hukuku-avukati-isci-haklari.html</loc>
-    <lastmod>2025-01-28</lastmod>
+    <loc>https://uzmanhukuk.com.tr.ht/aile-hukuku.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eemrek.github.io/uzmanhukuk/blog/anlasmali-bosanma-kayseri.html</loc>
-    <lastmod>2025-01-28</lastmod>
+    <loc>https://uzmanhukuk.com.tr.ht/arabuluculuk-hizmetleri.html</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uzmanhukuk.com.tr.ht/gayrimenkul-hukuku.html</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uzmanhukuk.com.tr.ht/icra-iflas-hukuku.html</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uzmanhukuk.com.tr.ht/is-hukuku.html</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uzmanhukuk.com.tr.ht/sigorta-hukuku.html</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uzmanhukuk.com.tr.ht/sozlesmeler-hukuku.html</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uzmanhukuk.com.tr.ht/ticaret-hukuku.html</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://uzmanhukuk.com.tr.ht/tuketici-hukuku.html</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
