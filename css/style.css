@@ -2637,7 +2637,7 @@ footer {
 }
 
 .call-to-action {
-    background: linear-gradient(135deg, var(--primary-blue), #1a4a8a);
+    background: linear-gradient(135deg, var(--primary-blue), #c8dbf4);
     color: var(--white);
     padding: 30px;
     border-radius: 10px;
